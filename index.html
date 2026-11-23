@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Elvis Geovanny Mejía Salto, estudiante de Desarrollo de Software interesado en programación, electrónica y robótica.">
+  <meta name="theme-color" content="#080d18">
+  <title>Elvis Mejía | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">EG</span><span>ELVIS<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link nav-contact">Contacto <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container section" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> DISPONIBLE PARA APRENDER Y CREAR</div>
+        <p class="hero-intro">Hola, soy</p>
+        <h1 id="hero-title">Elvis Geovanny<br><span class="gradient-text">Mejía Salto.</span></h1>
+        <h2 class="hero-role">Estudiante de <span id="typedRole">Desarrollo de Software</span><span class="typing-cursor">|</span></h2>
+        <p class="hero-description">Transformo ideas en proyectos digitales y electrónicos. Me apasiona programar, experimentar con tecnología y encontrar soluciones creativas.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Explorar proyectos <span>↗</span></a>
+          <a class="btn btn-secondary" href="#contacto">Hablemos</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/ElvisMejia-LAB" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <span class="social-separator"></span>
+          <a href="mailto:egmejia@sudamericano.edu.ec">Correo electrónico <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span class="window-dots"><i></i><i></i><i></i></span><span>developer.profile</span><span class="profile-live">● ONLINE</span></div>
+          <div class="profile-avatar">EG</div>
+          <h3>Elvis Mejía</h3>
+          <p>Software · Electronics · Robotics</p>
+          <div class="profile-line"></div>
+          <div class="profile-code"><span class="code-purple">const</span> developer = {<br>&nbsp; name: <span class="code-green">'Elvis Mejía'</span>,<br>&nbsp; focus: <span class="code-green">'Learning & building'</span>,<br>&nbsp; status: <span class="code-green">'Always curious'</span><br>};</div>
+          <div class="profile-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ESP32</span></div>
+        </div>
+        <div class="floating-chip chip-code"><span>⌘</span> Code</div>
+        <div class="floating-chip chip-circuit"><span>⌁</span> Electronics</div>
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span></span> DESLIZA PARA EXPLORAR</a>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">01 / CONÓCEME</p><h2>Sobre <span class="gradient-text">mí.</span></h2><p class="section-subtitle">Curiosidad, creatividad y tecnología: el punto de partida de cada proyecto.</p></div>
+        <div class="about-grid">
+          <article class="about-text glass-card reveal">
+            <div class="card-icon">✦</div>
+            <h3>Aprender creando</h3>
+            <p>Me llamo Elvis Geovanny Mejía Salto. Soy estudiante de Desarrollo de Software en el Instituto Superior Tecnológico Sudamericano. Me interesa la programación, la electrónica y la robótica, especialmente cuando puedo combinar estas áreas para construir soluciones prácticas.</p>
+            <p>Disfruto aprender nuevas herramientas, resolver problemas y convertir ideas en proyectos que se puedan probar en el mundo real.</p>
+          </article>
+          <div class="about-facts reveal">
+            <div class="fact-card"><span class="fact-number">01</span><div><h3>Desarrollo de software</h3><p>Creación de páginas y soluciones con código.</p></div></div>
+            <div class="fact-card"><span class="fact-number">02</span><div><h3>Electrónica</h3><p>Circuitos, componentes y experimentación.</p></div></div>
+            <div class="fact-card"><span class="fact-number">03</span><div><h3>Robótica e IoT</h3><p>Microcontroladores, sensores y automatización.</p></div></div>
+            <div class="fact-card"><span class="fact-number">04</span><div><h3>Aprendizaje continuo</h3><p>Siempre buscando mejorar y aprender algo nuevo.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">02 / TECNOLOGÍAS</p><h2>Mis <span class="gradient-text">habilidades.</span></h2><p class="section-subtitle">Herramientas y áreas con las que he trabajado o estoy aprendiendo.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-symbol orange">5</span><h3>HTML</h3><p>Estructura web</p><span class="skill-level">En aprendizaje</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol blue">#</span><h3>CSS</h3><p>Diseño y estilos</p><span class="skill-level">En aprendizaje</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol yellow">JS</span><h3>JavaScript</h3><p>Lógica e interacción</p><span class="skill-level">En aprendizaje</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol cyan">⌁</span><h3>ESP32</h3><p>IoT y microcontroladores</p><span class="skill-level">Práctica</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol green">A</span><h3>Arduino</h3><p>Programación electrónica</p><span class="skill-level">Práctica</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol purple">⌘</span><h3>Visual Studio Code</h3><p>Entorno de desarrollo</p><span class="skill-level">Herramienta</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol pink">⚡</span><h3>Electrónica</h3><p>Circuitos y componentes</p><span class="skill-level">Práctica académica</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol teal">◉</span><h3>Robótica</h3><p>Sensores y motores</p><span class="skill-level">Práctica</span></article>
+        </div>
+        <p class="skills-note">* Los niveles describen áreas de aprendizaje y práctica; no representan certificaciones profesionales.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">03 / TRABAJO</p><h2>Proyectos <span class="gradient-text">destacados.</span></h2><p class="section-subtitle">Una selección de trabajos académicos, ejercicios y prototipos.</p></div>
+        <div class="project-filters reveal" role="group" aria-label="Filtrar proyectos">
+          <button class="filter-btn active" data-filter="todos">Todos</button>
+          <button class="filter-btn" data-filter="software">Software</button>
+          <button class="filter-btn" data-filter="electronica">Electrónica</button>
+          <button class="filter-btn" data-filter="robotica">Robótica</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card reveal" data-category="software">
+            <div class="project-art art-electro"><span class="art-label">PROYECTO ACADÉMICO</span><div class="electro-logo">E<span>+</span></div><div class="art-title">ElectroPlay</div><div class="art-subtitle">APRENDE · CONECTA · EXPERIMENTA</div><div class="circuit-lines"></div></div>
+            <div class="project-content"><div class="project-meta"><span>Software educativo</span><span>01</span></div><h3>ElectroPlay</h3><p>Propuesta de plataforma didáctica para que niños aprendan electrónica básica mediante juegos, retos interactivos y módulos físicos para construir circuitos.</p><div class="tag-list"><span>Educación</span><span>Gamificación</span><span>Electrónica</span></div><button class="project-more" data-title="ElectroPlay" data-description="Plataforma didáctica que combina juegos digitales, retos interactivos y módulos físicos para acercar la electrónica básica a los niños. La propuesta integra aprendizaje práctico, gamificación y construcción de circuitos reales." data-tech="Educación · Gamificación · Electrónica">Ver detalles <span>↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="robotica electronica">
+            <div class="project-art art-robot"><span class="art-label">PROTOTIPO</span><div class="robot-visual">◉<span>⌁</span>◉</div><div class="art-title">Robot con ESP32</div><div class="art-subtitle">SENSORES · MOTORES · MOVIMIENTO</div><div class="robot-grid"></div></div>
+            <div class="project-content"><div class="project-meta"><span>Robótica</span><span>02</span></div><h3>Robot evita obstáculos</h3><p>Prototipo con ESP32, controlador L298N, sensor ultrasónico y servomotor para detectar obstáculos y controlar el movimiento.</p><div class="tag-list"><span>ESP32</span><span>L298N</span><span>Ultrasónico</span></div><button class="project-more" data-title="Robot evita obstáculos" data-description="Prototipo de robótica que utiliza un ESP32, un controlador de motores L298N, sensor ultrasónico y servomotor. El sistema detecta obstáculos y permite ajustar el movimiento del robot." data-tech="ESP32 · L298N · Sensor ultrasónico · Servomotor">Ver detalles <span>↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="electronica">
+            <div class="project-art art-iot"><span class="art-label">INTERNET DE LAS COSAS</span><div class="wifi-symbol">)))</div><div class="art-title">Control Wi-Fi</div><div class="art-subtitle">CONTROL DESDE EL NAVEGADOR</div><div class="iot-node"></div></div>
+            <div class="project-content"><div class="project-meta"><span>IoT y electrónica</span><span>03</span></div><h3>Control de dispositivos por Wi-Fi</h3><p>Interfaz web local para controlar componentes conectados a un ESP32 desde el navegador de un teléfono o computadora.</p><div class="tag-list"><span>ESP32</span><span>Wi-Fi</span><span>WebServer</span></div><button class="project-more" data-title="Control de dispositivos por Wi-Fi" data-description="Proyecto de control local con ESP32 y servidor web. Desde una página abierta en el navegador se pueden enviar órdenes para activar o desactivar dispositivos conectados a sus pines GPIO." data-tech="ESP32 · Wi-Fi · HTML · WebServer">Ver detalles <span>↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="software">
+            <div class="project-art art-pizza"><span class="art-label">JAVASCRIPT</span><div class="pizza-symbol">◒</div><div class="art-title">La Esquina</div><div class="art-subtitle">PEDIDOS · IVA · ENTREGA</div><div class="pizza-orbit"></div></div>
+            <div class="project-content"><div class="project-meta"><span>Programación</span><span>04</span></div><h3>Sistema de pedidos – La Esquina</h3><p>Programa de consola en JavaScript para calcular pedidos de pizza, IVA del 15 % y costo de entrega según las condiciones del pedido.</p><div class="tag-list"><span>JavaScript</span><span>Lógica</span><span>Consola</span></div><button class="project-more" data-title="Sistema de pedidos – La Esquina" data-description="Aplicación de consola para una pizzería. Calcula el subtotal según la cantidad de pizzas, agrega IVA del 15 % y aplica entrega de $1,50, gratuita cuando el cliente retira el pedido o el subtotal alcanza $20." data-tech="JavaScript · Condicionales · Operaciones">Ver detalles <span>↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="electronica">
+            <div class="project-art art-sensor"><span class="art-label">MONITOREO</span><div class="sensor-value">24.8<span>°C</span></div><div class="art-title">Monitor DHT</div><div class="art-subtitle">TEMPERATURA Y HUMEDAD</div><div class="sensor-wave"></div></div>
+            <div class="project-content"><div class="project-meta"><span>Electrónica</span><span>05</span></div><h3>Monitoreo con sensor DHT</h3><p>Práctica de lectura de temperatura y humedad utilizando un sensor DHT y una placa ESP32.</p><div class="tag-list"><span>ESP32</span><span>DHT</span><span>Sensores</span></div><button class="project-more" data-title="Monitoreo con sensor DHT" data-description="Práctica de adquisición de datos ambientales mediante un sensor DHT conectado a un ESP32. Permite leer valores de temperatura y humedad para mostrarlos o utilizarlos en otros sistemas." data-tech="ESP32 · DHT · Sensores">Ver detalles <span>↗</span></button></div>
+          </article>
+          <article class="project-card reveal" data-category="software electronica">
+            <div class="project-art art-web"><span class="art-label">DISEÑO WEB</span><div class="browser-window"><div class="browser-bar"><i></i><i></i><i></i></div><div class="browser-content"><b></b><span></span><span></span><em></em></div></div><div class="art-title">Diseño y circuitos</div><div class="art-subtitle">WEB · ELECTRÓNICA · INSTALACIONES</div></div>
+            <div class="project-content"><div class="project-meta"><span>Prácticas académicas</span><span>06</span></div><h3>Diseño web y electrónica básica</h3><p>Conjunto de prácticas de HTML y CSS, análisis de circuitos, teorema de Thévenin y cálculos de instalaciones eléctricas.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>Circuitos</span></div><button class="project-more" data-title="Diseño web y electrónica básica" data-description="Colección de ejercicios académicos que incluye maquetación web con HTML y CSS, análisis de circuitos, aplicación del teorema de Thévenin y cálculos básicos de iluminación, tomacorrientes y protecciones." data-tech="HTML · CSS · Electrónica básica · Instalaciones">Ver detalles <span>↗</span></button></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Los proyectos se presentan como trabajos académicos, prácticas o prototipos. Se pueden añadir enlaces a repositorios, demostraciones y fotografías cuando estén disponibles.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="formacion">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">04 / FORMACIÓN</p><h2>Mi <span class="gradient-text">formación.</span></h2></div>
+        <div class="education-card glass-card reveal"><div class="education-icon">✧</div><div><span class="education-date">FORMACIÓN ACADÉMICA</span><h3>Instituto Superior Tecnológico Sudamericano</h3><p class="education-career">Desarrollo de Software</p><p>Formación en programación, metodologías para resolver problemas informáticos, diseño web y fundamentos tecnológicos.</p></div><span class="education-status">En curso</span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-glow"></div>
+          <p class="section-kicker">05 / CONTACTO</p>
+          <h2>¿Creamos algo <span class="gradient-text">juntos?</span></h2>
+          <p class="contact-lead">Estoy abierto a conectar, compartir ideas y seguir aprendiendo. Si tienes una propuesta o simplemente quieres conversar sobre tecnología, escríbeme.</p>
+          <div class="contact-links">
+            <a class="contact-item" href="mailto:egmejia@sudamericano.edu.ec"><span class="contact-icon">@</span><span><small>ESCRÍBEME</small><strong>egmejia@sudamericano.edu.ec</strong></span><span class="contact-arrow">↗</span></a>
+            <a class="contact-item" href="https://wa.me/593993845944" target="_blank" rel="noopener noreferrer"><span class="contact-icon">✆</span><span><small>WHATSAPP</small><strong>+593 993 845 944</strong></span><span class="contact-arrow">↗</span></a>
+            <a class="contact-item" href="https://github.com/ElvisMejia-LAB" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>ElvisMejia-LAB</strong></span><span class="contact-arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark">EG</span><span>ELVIS<span class="brand-dot">.</span></span></a><p>Diseñado y desarrollado por Elvis Mejía.</p><p>© <span id="year"></span> · Hecho con curiosidad y código.</p></div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-box"><button class="modal-close" data-close-modal aria-label="Cerrar">×</button><p class="section-kicker">DETALLES DEL PROYECTO</p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="tag-list" id="modalTech"></div></div>
+  </div>
+</body>
+</html>
